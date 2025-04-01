@@ -1,6 +1,32 @@
- img {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+img {
     width: 200px
  }
  img {
     height: 200px
  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+:root {
+    --black: #141414;
+    --dark-grey: #1F1F1F;
+    --white: #FFF;
+}
+body {
+    background-color: var(--black);
+    height: 100vh;
+    
+}
+div {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    width: 384px;
+
+}
